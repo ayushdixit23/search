@@ -31,7 +31,7 @@ function page({ params }) {
 
   return (
     <div>
-      <div className="h-[80vh] w-[80vw] bg-slate-400 flex justify-center items-center">
+      <div className="h-[100vh] w-[100vw] bg-slate-400 flex justify-center items-center">
         {data ? (
           <div dangerouslySetInnerHTML={{ __html: data }} />
         ) : (

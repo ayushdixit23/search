@@ -31,13 +31,13 @@ function page({ params }) {
 
   return (
     <div>
-      <div className="h-[100vh] w-[100vw] bg-slate-400 flex justify-center items-center">
+      <div className="h-[100vh] w-[100vw] bg-slate-50 flex justify-center items-center">
         {data ? (
           <div dangerouslySetInnerHTML={{ __html: data }} />
         ) : (
           <>
-            <div className="flex flex-col w-full justify-center items-center">
-              <div>Get Ready to form your own personalise space.</div>
+            <div className="flex flex-col w-full h-full justify-center p-4 items-center">
+              <div className="bg-[#dddddd] w-full h-full rounded-2xl animate-pulse"></div>
             </div>
           </>
         )}
